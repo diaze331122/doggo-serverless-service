@@ -1,0 +1,11 @@
+/node_modules/
+/.serverless/
+/.venv/
+/volume/
+/.idea/.gitignore
+/.idea/doggo-service.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/package-lock.json
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml

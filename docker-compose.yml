@@ -1,0 +1,16 @@
+services:
+  localstack:
+    image: 'localstack/localstack'
+    container_name: 'serverless-lambda-localstack'
+    environment:
+      - DEBUG=1
+      - HOSTNAME_EXTERNAL=
+      - AWS_DEFAULT_REGION=
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
+      - DATA_DIR=/tmp/localstack/data
+    ports:
+      - 4566-4597:4566-4597
+    volumes:
+      - "${LOCALSTACK_VOLUME_DIR:-./volume}:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
