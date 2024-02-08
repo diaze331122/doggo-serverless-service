@@ -130,3 +130,7 @@ serverless wsgi serve
 
 For additional local development capabilities of `serverless-wsgi` plugin, please refer to corresponding [GitHub repository](https://github.com/logandk/serverless-wsgi).
 # doggo-serverless-service
+
+##How to set up this project
+
+Please make sure that you have a working knowledge of docker and how docker interacts with your OS.
